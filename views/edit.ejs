@@ -4,6 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Post</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            text-align: center;
+        }
+        h2{
+            color: red;
+            font-size: 50px;
+        }
+        p{
+            color: maroon;
+        }
+        button{
+            border-radius: 8px;
+            background-color: aqua;
+        }
+        textarea{
+            border: 2px solid black;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
     <h2>Edit Your Post</h2>
@@ -11,6 +32,7 @@
     <p>Post username : @<%= post.username %></p>
     <form action="/posts/<%=post.id%>?_method=PATCH" method="post">
         <textarea rows="10" cols="25" name="content"><%= post.content %></textarea><br>
+        <br>
         <button>Submit</button>
 
     </form>

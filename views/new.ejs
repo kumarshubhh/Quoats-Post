@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width='device-width', initial-scale=1.0">
     <title>Create a New Post</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: bisque;
+        }
+        #create{
+            border-radius: 10px;
+            background-color: antiquewhite;
+        }
+    </style>
 </head>
 <body>
-    <form action="/posts" method="post">
-        <input type="text" name="username" placeholder="enter username"><br> <br>
-        <textarea name="content" placeholder="Write Your Post"></textarea><br>
-        <button>Submit Post</button>
+    <form action="/posts" method="post" id="create" style="text-align: center;">
+        <input  id="create" name="username" placeholder="enter username"><br> <br>
+        <textarea name="content" rows="10" cols="20" placeholder="Write Your Post" id="create"></textarea><br>
+        <br>
+        <button id="create" style="border-radius: 10px ; background-color: aqua;">Submit Post</button>
     </form>
     
 </body>

@@ -4,7 +4,9 @@ body{
 }
 #btn{
     background-color: palevioletred;
-    border-radius: 10px
+    border-radius: 10px;
+
+    margin: 10px;
 }
 #btn-c{
     border-radius: 10px;
@@ -21,4 +23,8 @@ h1{
 
 .user{
     font-style: italic;
+}
+#create{
+    text-align: center;
+    background-color: aqua;
 }
