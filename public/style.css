@@ -1,0 +1,24 @@
+
+body{
+    text-align: center;
+}
+#btn{
+    background-color: palevioletred;
+    border-radius: 10px
+}
+#btn-c{
+    border-radius: 10px;
+    background-color: aqua;
+}
+h1{
+    color: maroon;
+    font-size: 50px;
+
+}
+.post{
+    background-color: blanchedalmond;
+}
+
+.user{
+    font-style: italic;
+}
